@@ -1,0 +1,85 @@
+.site {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+
+header {
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 1%;
+	
+}
+
+.logo {
+	cursor: pointer;
+	width: 120px;
+	
+}
+
+nav {
+	list-style: none;
+
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+nav a {
+	color: #1351d8;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h2 {
+	width: 120px;
+}
+
+
+main {
+	flex: 1;
+	text-align: center;
+}
+
+.espaco {
+	height: 100px;
+}
+
+footer {
+	position: fixed;
+	background: #1b357e;
+	left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.redes_sociais {
+	display: flex;
+	align-items: flex-end;
+	padding: 0 10px;
+}
+
+.redes_sociais img {
+	width: 30px;
+	padding: 0 2px;
+}
+
+.rodape_nome {
+	margin: 5px 5px;
+	color: #FFFFFF;
+}
+
+.logo_rodape {
+	padding: 0 10px;
+	width: 60px;
+}
